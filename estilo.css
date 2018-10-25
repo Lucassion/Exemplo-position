@@ -1,0 +1,39 @@
+body{
+    background-color:  pink
+}
+
+.externa{
+    border: solid 2px red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.interna{
+    padding: 215px;
+    margin: 30px;
+}
+.interna:nth-child(1){
+    font-size: 50px;
+    position: relative;
+    left: 0px;
+    top: 600px;
+}
+.interna:nth-child(2){
+    font-size: 100px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.interna:nth-child(3){
+    font-size: 50px;
+    position: relative;
+    left: 0px;
+    bottom: 600px;
+}
+.interna:nth-child(4){
+    font-size: 50px;
+    position: relative;
+    left: 70px;
+    top: 70px;
+}
